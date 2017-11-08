@@ -1,5 +1,6 @@
-print("hello")
-i = 0;
-while 1:
-	i = i + 1;
-	print(i, end="");
+def infinite_counter(x):
+	while x>0:
+		x=x+1
+		print(x, end="")
+
+infinite_counter(1)
