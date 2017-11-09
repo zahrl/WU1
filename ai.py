@@ -30,7 +30,7 @@ class Psychologist:
 			if n.find("alone") != -1:
 				self.print_solution("Call a friend.")
 			if n.find("money") != -1:
-				self.print_solution("Get a job.")
+				self.print_solution("Establish a bank.")
 			if n.find("touched") != -1:
 				self.print_solution("Get a massage.")
 
